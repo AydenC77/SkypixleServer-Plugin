@@ -1,0 +1,9 @@
+name: SkypixleServer
+version: '1.0'
+main: net.skypixle.skypixleServer.SkypixleServer
+api-version: '1.21'
+prefix: Skypixle-Server
+load: STARTUP
+authors: [ Skypixle Team ]
+description: A Support plugin for skypixle servers
+website: https://skypixle.net
