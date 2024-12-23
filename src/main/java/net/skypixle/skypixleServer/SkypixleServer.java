@@ -33,16 +33,6 @@ public final class SkypixleServer extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        getServer().getPluginManager().enablePlugin(this);
-    }
-
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equals("spstop")) {
-            //getServer().shutdown();
-            Bukkit.shutdown();
-            //getServer().dispatchCommand(getServer().getConsoleSender(), "stop");
-        }
-        return super.onCommand(sender, command, label, args);
+        //getServer().getPluginManager().enablePlugin(this);
     }
 }
