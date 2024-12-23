@@ -7,3 +7,6 @@ load: STARTUP
 authors: [ Skypixle Team ]
 description: A Support plugin for skypixle servers
 website: https://skypixle.net
+commands:
+  stopserver:
+    description: stops the server
